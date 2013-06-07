@@ -15,21 +15,24 @@ body > div {
 
 
 /*navigation*/
+nav {
+	margin: 0 90px 0 90px;
+}
 
 nav li {
 	float: left;
 	list-style: none;
-	margin: 10px 50px 10px 50px;
-	padding: 60px;
+	margin: 0 60px 0 60px;
+	padding-left: 20px;
 }
 
 nav a:link {
 	text-decoration: none;
 }
+nav a:hover {
+	
 /*content box*/
-.content-box {
-  background: #D2D2C7;
-}
+
 .box {
   background: #D2D2C7;
   height: 1000px;
@@ -40,3 +43,8 @@ nav a:link {
   box-shadow: 2px 2px 3px #999
 }
 
+
+
+footer {
+	clear:both;
+}
