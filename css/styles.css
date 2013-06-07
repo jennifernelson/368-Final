@@ -16,7 +16,8 @@ body > div {
 nav li {
 	float: left;
 	list-style: none;
-	margin: 0 10px 0 10px;
+	margin: 10px 50px 10px 50px;
+	padding: 60px;
 }
 
 nav a:link {
