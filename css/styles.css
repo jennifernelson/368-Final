@@ -50,9 +50,8 @@ section {
       list-style:none;
   		padding: 0.5px 0 0 0.5px;
 			max-width: 100em;
-			margin: 0;
- 
-  transition-property: margin;
+			margin: 0 auto;
+
 		}
 
 
@@ -64,11 +63,7 @@ section {
        width: 250px;
 			background: #D2D2C7;
 			text-align: center;
-  transition-property: width;
 		}
-.grid li > img:hover {
-  width: 300px;
-}
 		
 		@media all and (min-width: 40em) {
 			.grid li {
