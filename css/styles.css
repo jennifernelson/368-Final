@@ -16,7 +16,7 @@ body > div {
 
 /*navigation*/
 nav {
-	margin: 0 90px 0 90px;
+	margin: 0 85px 0 85px;
 }
 
 nav li {
@@ -29,20 +29,70 @@ nav li {
 nav a:link {
 	text-decoration: none;
 }
-nav a:hover {
-	
 /*content box*/
 
-.box {
-  background: #D2D2C7;
-  height: 1000px;
-  float: left;
-  margin: 10px;
-  width: 1000px;
-  border-radius: 30%;
-  box-shadow: 2px 2px 3px #999
+section {
+	background: #D3D3CC;
+	padding-bottom: 0;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	width: 800px;
 }
 
+/*photos*/
+#gallery img {
+  -webkit-filter: drop-shadow(5px 5px 5px #ccc)
+}
+
+
+.grid {
+      list-style:none;
+  		padding: 0.5px 0 0 0.5px;
+			max-width: 100em;
+			margin: 0;
+ 
+  transition-property: margin;
+		}
+
+
+		.grid li {
+			padding: 0 3px 3px 0;
+		}
+		.grid li > img {
+      display:block;
+       width: 250px;
+			background: #D2D2C7;
+			text-align: center;
+  transition-property: width;
+		}
+.grid li > img:hover {
+  width: 300px;
+}
+		
+		@media all and (min-width: 40em) {
+			.grid li {
+				width: 50%;
+				float: left;
+			}
+		}
+		
+		@media all and (min-width: 40em) {
+			.grid li {
+				width: 30%;
+			}
+			.grid li.wide {
+				width: 60%;
+			}
+		}
+		@media all and (min-width: 60em) {
+			.grid li {
+				width: 25%;
+			}
+			.grid li.wide {
+				width: 50%;
+			}
+		}
 
 
 footer {
