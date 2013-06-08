@@ -5,7 +5,7 @@ font-size: 16px;
 }
 
 body > div {
-	background: rgba(128,128,128,.1);
+	background: #D3D3CC;
 	margin: 0 auto;
 	width: 90%;
 	max-width: 960px;
@@ -23,7 +23,7 @@ nav li {
 	float: left;
 	list-style: none;
 	margin: 0 60px 0 60px;
-	padding-left: 20px;
+	padding: 20px;
 }
 
 nav a:link {
@@ -37,35 +37,51 @@ section {
 	float: left;
 	margin: 10px;
 	padding: 10px;
-	width: 800px;
+	width: 400px;
 }
 
+aside {
+  float: right;
+  margin: 10px;
+  width: 400px;
+}
+aside img {
+	width: 400px;
+	height: 400px;
+}
 /*photos*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { font-family: Arial, sans-serif; }
+
+
 #gallery img {
-  -webkit-filter: drop-shadow(5px 5px 5px #ccc)
+  -webkit-filter: grayscale(100%) drop-shadow(5px 5px 5px rgba(13, 0, 0, 0.3))
 }
 
 
 .grid {
-      list-style:none;
-  		padding: 0.5px 0 0 0.5px;
-			max-width: 100em;
-			margin: 0 auto;
-
+	list-style: none;
+	overflow: hidden;
+	padding: 0.5em 0 0 0.5em;
+	max-width: 100em;
+	margin: 20px auto;
 		}
-
-
 		.grid li {
-			padding: 0 3px 3px 0;
+			padding: 0 0.5em 0.5em 0;
 		}
 		.grid li > img {
       display:block;
-       width: 250px;
-			background: #D2D2C7;
+       max-width:100%;
+			background: #808080;
+			padding: 2em;
 			text-align: center;
 		}
+		.grid li a {
+			color: #fff;
+		}
 		
-		@media all and (min-width: 40em) {
+		@media all and (min-width: 27em) {
 			.grid li {
 				width: 50%;
 				float: left;
@@ -74,10 +90,10 @@ section {
 		
 		@media all and (min-width: 40em) {
 			.grid li {
-				width: 30%;
+				width: 33.3333333%;
 			}
 			.grid li.wide {
-				width: 60%;
+				width: 66.666666%;
 			}
 		}
 		@media all and (min-width: 60em) {
@@ -89,6 +105,7 @@ section {
 			}
 		}
 
+/*footer*/
 
 footer {
 	clear:both;
