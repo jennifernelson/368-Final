@@ -4,56 +4,18 @@ background: #B4F9DE;
 font-size: 16px;
 }
 
-body > div {
-	background: #D3D3CC;
-	margin: 0 auto;
-	width: 90%;
-	max-width: 1000px;
-	display: block;	
+div {
+	display: block;
+}
+.top {
+	height: 200px;
+	width: 900px;
+	margin: 20px 0 20px 0;
+	background: #B4F9DE;
 }
 
-
-
-/*navigation*/
-nav {
-	margin: 0 85px 0 85px;
-}
-
-nav li {
-	float: left;
-	list-style: none;
-	margin: 0 40px 0 40px;
-	padding: 20px;
-}
-
-nav a:link {
-	text-decoration: none;
-}
-/*content box*/
-
-section {
-	background: #D3D3CC;
-	padding-bottom: 0;
-	float: left;
-	margin: 10px;
-	padding: 10px;
-	width: 400px;
-}
-
-aside {
-  float: right;
-  margin: 10px;
-  width: 400px;
-}
-aside img {
-	width: 400px;
-	height: 400px;
-}
-/*photos*/
-
-
-/*footer*/
-
-footer {
-	clear:both;
+pic {
+	width: 500px;
+	margin: 0 auto 0;
+	padding-top: 10px;
 }
