@@ -62,7 +62,14 @@ div img {
 
 div img:hover {
 	border-radius: 0;
-	-webkit-transition: all 3s;
+	-webkit-transition: all 3s ease-in-out;
+}
+
+/*footer*/
+
+.bottomnav {
+	float: left;
+	margin: 0 60px;
 }
 
 /*footer contact form*/
