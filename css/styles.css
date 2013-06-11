@@ -38,7 +38,7 @@ h1 {
 article img {
 	background: #E1E1D0;
 	height: 440px;
-	width: 440px;
+	width: 450px;
 	border: 4px solid #ccc;
 	border-radius: 40px;
 }
@@ -57,14 +57,11 @@ article p {
 div img {
 	border-radius: 60px;
 	float: left;
-	margin: 10px;
-	width: 200px;
-	transition-property: border-radius, width;
+	transition-property: border-radius;
 }
 
 div img:hover {
 	border-radius: 0;
-	width: 400px;
 	-webkit-transition: all 3s;
 }
 
