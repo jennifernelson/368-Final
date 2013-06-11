@@ -2,8 +2,7 @@
 body { 
 background: #B4F9DE;
 font-family: 'Sintony', sans serif;
-margin: 20px;
-padding: 30px;
+padding: 20px;
 }
 
 /*navigation*/ 
@@ -51,12 +50,22 @@ article li {
 
 /*photo gallery page*/
 
-div img {
-	border: 4px solid #ccc;
-	border-radius: 20px;
-	margin: 0 20px 20px 0;
-	float: left;
+article p {
+	text-align: center;
 }
 
+div img {
+	border-radius: 60px;
+	float: left;
+	margin: 10px;
+	width: 200px;
+	transition-property: border-radius, width;
+}
+
+div img:hover {
+	border-radius: 0;
+	width: 400px;
+	-webkit-transition: all 3s;
+}
 
 /*footer contact form*/
