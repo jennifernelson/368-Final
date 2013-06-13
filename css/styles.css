@@ -13,16 +13,27 @@ body {
 	border: 2px solid #ccc;
 	margin: 0;
 }
+
+/*link styles*/
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #999;
+}
+
+a:hover {
+	color: #FFF;
+}
+
 /*navigation*/
 #topnav ul {
 	height: 100px;
   	margin-top: 59px;
   	padding-left: 17px;
   	width: 500px;
-}
-
-li {
-	text-decoration: none;
 }
 
 ul li {
@@ -63,6 +74,28 @@ background: #CCC;
 	margin: -12px;
 }
 
+/*contact button in about me*/
+button {
+  border: 0;
+  background: linear-gradient(#768191, #535b65);
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 5px 0 #404853;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px 20px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  transition: all .1s linear;
+}
+button:hover {
+  color: #d4d7da;
+}
+button:active {
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 2px 0 #404853;
+  transform: translateY(3px);
+}
+
 
 /*image sizing*/
 article img {
@@ -75,7 +108,6 @@ article img {
 
 article ul li {
   	width: 440px;
-	list-style: none;
 }
 
 /*photo gallery page*/
@@ -101,8 +133,9 @@ div img:hover {
 }
 
 /*footer*/
-#footer p { 
+#footer { 
 text-align: center;
+font-size: 12px;
 }
 	
 
