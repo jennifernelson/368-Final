@@ -29,7 +29,6 @@ ul li {
 	display: inline;
 	margin: 0 -14px;
 	padding: 43px;
-	text-indent: -99px;
 	text-decoration: none;
 	text-align: center;
 }
@@ -80,10 +79,31 @@ article ul li {
 }
 
 /*photo gallery page*/
+div img {
+	margin: 2px 0 39px 0;
+	border-radius: 90%;
+	-webkit-transition: border-radius 1s linear 0s;
+	-moz-transition: border-radius 1s linear 0s;
+	-o-transition: border-radius 1s linear 0s
+	transition: border-radius 1s linear 0s;
+}
 
+div img:hover {
+	border-radius: 10%;
+}
+
+#box3 {
+	background: #CCC;
+  	height: 300px;
+  	width: 960px;
+	border: 2px solid #ccc;
+	margin: -12px;
+}
 
 /*footer*/
-
+#footer p { 
+text-align: center;
+}
 	
 
 
