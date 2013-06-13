@@ -79,7 +79,7 @@ button {
   border: 0;
   background: linear-gradient(#768191, #535b65);
   border-radius: 4px;
-  box-shadow: 0 1px 0 #9CC, 0 5px 0 #404853;
+  box-shadow: 0 1px 0 #9CC, 0 3px 0 #404853;
   color: ;
   cursor: pointer;
   font-weight: bold;
@@ -191,10 +191,10 @@ input[type=url],
 input[type=password],
 textarea {
 	width: 100%;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 4px solid #ccc;
+  border-left: 4px solid #ccc;
+  border-right: 4px solid #eee;
+  border-bottom: 4px solid #eee;
 }
 input[type=text],
 input[type=email],
