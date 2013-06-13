@@ -21,7 +21,7 @@ a {
 }
 
 a:visited {
-	color: #999;
+	color: #FFF;
 }
 
 a:hover {
@@ -79,17 +79,17 @@ button {
   border: 0;
   background: linear-gradient(#768191, #535b65);
   border-radius: 4px;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 5px 0 #404853;
-  color: #fff;
+  box-shadow: 0 1px 0 #9CC, 0 5px 0 #404853;
+  color: ;
   cursor: pointer;
   font-weight: bold;
   padding: 12px 20px;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  text-transform: uppercase;
+  text-shadow: 0 -1px 0 #999;
+  text-transform: lowercase;
   transition: all .1s linear;
 }
 button:hover {
-  color: #d4d7da;
+  color: #2C858D;
 }
 button:active {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 2px 0 #404853;
